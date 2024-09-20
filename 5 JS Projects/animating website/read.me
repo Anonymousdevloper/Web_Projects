@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animation Website Page</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+
+    #logo {
+      max-width: 100px; /* Adjust the size as needed */
+    }
+
+    .cursor,
+    .cursor-blur {
+      /* Add your cursor styles here */
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+    }
+
+    .main {
+      /* Add your styles for the main section */
+    }
+
+    .page1,
+    .page2 {
+      /* Add your styles for page1 and page2 */
+    }
+
+    .scroller {
+      /* Add your styles for the scroller */
+    }
+
+    .about-us {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      /* Add your styles for the about-us section */
+    }
+
+    .about-us img {
+      max-width: 200px; /* Adjust the size as needed */
+    }
+
+    .about-us-in {
+      /* Add your styles for the about-us-in section */
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/logo-white.svg" alt="Logo" id="logo">
+    <h4>TOPTRACER RANGE</h4>
+    <h4>Golf Lessons</h4>
+    <h4>Adventure Golf</h4>
+    <h4>Coffee Shop</h4>
+    <h4>Leagues</h4>
+  </div>
+
+  <div class="cursor"></div>
+  <div class="cursor-blur"></div>
+
+  <video controls autoplay >
+    <source src="suzune.mp4" type="video/mp4">
+  </video>
+
+  <div class="main">
+    <div class="page1">
+      <h1>WATCH . ENJOY . ANIME.</h1>
+      <h2>WELCOME TO ANIME WEBSITE!</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quasi corrupti ducimus saepe dolorem!</p>
+    </div>
+
+    <div class="page2">
+      <div class="scroller">
+        <div class="scroller-in">
+          <h4>TRENDING</h4>
+          <!-- Add more items as needed -->
+        </div>
+        <div class="scroller-in">
+          <h4>TRENDING</h4>
+          <!-- Add more items as needed -->
+        </div>
+      </div>
+
+      <div class="about-us">
+        <img src="Boat.jpg" alt="Boat Image">
+        <div class="about-us-in">
+          <h3>About Us</h3>
+          <!-- Add more content as needed -->
+        </div>
+        <img src="soloL.jpg" alt="Solo Image">
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+</html>
